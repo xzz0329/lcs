@@ -42,8 +42,8 @@ function lcs($oldStr,$newStr)
 	}
 
 
-	$i = $oldStr - 1;
-	$j = $newStr - 1;
+	$i = $oldCount - 1;
+	$j = $newCount - 1;
 
 	while(($i > -1) || ($j > -1)){
 
